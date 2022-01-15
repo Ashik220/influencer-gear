@@ -90,9 +90,18 @@ footer{
   background-color: #0A0826;
   color: white;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+footer p{
+  margin: 0px;
+  font-size: 14px;
+}
+footer h2{
+  margin-bottom: 0;
 }
 .footer-icons{
-  
+  margin-top: 17px;
 }
 .fa-instagram{
   padding-right: 16px;
@@ -106,8 +115,9 @@ footer{
 .fa-youtube{
   padding-right: 16px;
 }
-.see-more{
+.see-more>p>a{
   color: #E02C6D;
+  text-decoration: none;
   margin-left: 1070px;
 }
 .see-more-arrow{
